@@ -1,0 +1,15 @@
+CREATE DATABASE practica65;
+
+CREATE TABLE Usuario(
+id_usuario INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+nombre VARCHAR(100),
+edad INT
+);
+
+CREATE TABLE Telefono(
+id_telefono INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+tipo VARCHAR(50),
+lada INT,
+numero VARCHAR(150),
+id_usuario INT
+);
