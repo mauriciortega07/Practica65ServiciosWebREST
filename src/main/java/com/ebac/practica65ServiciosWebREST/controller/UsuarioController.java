@@ -22,6 +22,23 @@ public class UsuarioController {
 
     @PostMapping("/usuarios")
     public ResponseEntity<ResponseWrapper<Usuario>> guardarUsuario(@RequestBody Usuario usuario) throws URISyntaxException {
+        /*int IdUsuarioARegistrar = usuario.getIdUsuario();
+        Optional<Usuario> usuarioOptional = usuarioService.obtenerUsuarioPorID(IdUsuarioARegistrar);
+
+        if(usuarioOptional.isPresent()){
+            log.info("Usuario ya existente");
+            ResponseEntity<Usuario> responseEntity = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ResponseWrapper<>(false, "Usuario ya Existente", responseEntity));
+        }
+
+        log.info("Usuario nuevo creado");
+        Usuario usuarioGuardado = usuarioService.guardarUsuario(usuario);
+        ResponseEntity<Usuario> responseEntity = ResponseEntity.created(new URI("http://localhost/usuarios")).body(usuarioGuardado);
+
+        return ResponseEntity.created(new URI("http://localhost/usuarios")).body(new ResponseWrapper<>(true, "Usuario Guardado", responseEntity));*/
+
+
         List<Usuario> usuarioList = usuarioService.obtenerUsuarios();
         boolean exist = false;
 

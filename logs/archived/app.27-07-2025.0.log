@@ -1,0 +1,157 @@
+27-07-2025 15:13:03,006-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 15:13:50,426-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 15:14:45,190-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 15:15:00,189-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 15:15:16,699-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 15:15:31,806-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 15:16:59,275-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 19:54:18,328-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 19:54:50,501-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 19:55:58,133-06:00 [main] INFO  c.e.p.controller.TelefonoController - Se encontro el usuario, se registrara
+27-07-2025 19:56:27,769-06:00 [main] INFO  c.e.p.controller.TelefonoController - Se encontro el usuario, se registrara
+27-07-2025 19:56:57,942-06:00 [main] INFO  c.e.p.controller.TelefonoController - Se encontro el usuario, se registrara el telefono
+27-07-2025 20:09:29,659-06:00 [main] WARN  c.e.p.controller.TelefonoController - El telfono recibido no tiene usuario asignado
+27-07-2025 20:23:27,258-06:00 [main] INFO  c.e.p.Practica65ServiciosWebRestApplication - Starting Practica65ServiciosWebRestApplication using Java 23.0.2 with PID 12104 (C:\Users\Mauricio Ortega\Desktop\EBAC\Actividades\BACKEND\PRACTICAS\practica65ServiciosWebREST\target\classes started by Mauricio Ortega in C:\Users\Mauricio Ortega\Desktop\EBAC\Actividades\BACKEND\PRACTICAS\practica65ServiciosWebREST)
+27-07-2025 20:23:27,261-06:00 [main] INFO  c.e.p.Practica65ServiciosWebRestApplication - The following 1 profile is active: "dev"
+27-07-2025 20:23:29,734-06:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-07-2025 20:23:29,850-06:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+27-07-2025 20:23:31,369-06:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+27-07-2025 20:23:31,387-06:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+27-07-2025 20:23:31,393-06:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+27-07-2025 20:23:31,393-06:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+27-07-2025 20:23:31,475-06:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+27-07-2025 20:23:31,476-06:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4065 ms
+27-07-2025 20:23:31,939-06:00 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-07-2025 20:23:32,452-06:00 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+27-07-2025 20:23:32,507-06:00 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+27-07-2025 20:23:33,172-06:00 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+27-07-2025 20:23:33,250-06:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+27-07-2025 20:23:33,676-06:00 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/practica65 user=SA
+27-07-2025 20:23:33,678-06:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+27-07-2025 20:23:33,923-06:00 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+27-07-2025 20:23:35,914-06:00 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+27-07-2025 20:23:35,988-06:00 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-07-2025 20:23:36,525-06:00 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-07-2025 20:23:37,031-06:00 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/practica65'
+27-07-2025 20:23:37,207-06:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+27-07-2025 20:23:37,242-06:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+27-07-2025 20:23:37,259-06:00 [main] INFO  c.e.p.Practica65ServiciosWebRestApplication - Started Practica65ServiciosWebRestApplication in 11.233 seconds (process running for 13.001)
+27-07-2025 20:24:18,321-06:00 [http-nio-8080-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+27-07-2025 20:24:18,321-06:00 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+27-07-2025 20:24:18,321-06:00 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+27-07-2025 20:25:58,410-06:00 [http-nio-8080-exec-6] INFO  c.e.p.controller.TelefonoController - La lista se encuentra vacia
+27-07-2025 20:26:09,730-06:00 [http-nio-8080-exec-3] INFO  c.e.p.controller.TelefonoController - Se encontro el usuario al cual se registrara el telefono
+27-07-2025 20:26:48,257-06:00 [http-nio-8080-exec-10] INFO  c.e.p.controller.TelefonoController - Se encontro el telefono
+27-07-2025 20:27:22,713-06:00 [http-nio-8080-exec-2] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 20:27:53,580-06:00 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+27-07-2025 20:27:53,590-06:00 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+27-07-2025 20:27:53,693-06:00 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-07-2025 20:27:53,696-06:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+27-07-2025 20:27:53,699-06:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+27-07-2025 20:32:48,993-06:00 [main] INFO  c.e.p.Practica65ServiciosWebRestApplication - Starting Practica65ServiciosWebRestApplication using Java 23.0.2 with PID 9924 (C:\Users\Mauricio Ortega\Desktop\EBAC\Actividades\BACKEND\PRACTICAS\practica65ServiciosWebREST\target\classes started by Mauricio Ortega in C:\Users\Mauricio Ortega\Desktop\EBAC\Actividades\BACKEND\PRACTICAS\practica65ServiciosWebREST)
+27-07-2025 20:32:48,999-06:00 [main] INFO  c.e.p.Practica65ServiciosWebRestApplication - The following 1 profile is active: "dev"
+27-07-2025 20:32:50,669-06:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-07-2025 20:32:50,785-06:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89 ms. Found 2 JPA repository interfaces.
+27-07-2025 20:32:51,812-06:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+27-07-2025 20:32:51,830-06:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+27-07-2025 20:32:51,833-06:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+27-07-2025 20:32:51,834-06:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+27-07-2025 20:32:51,937-06:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+27-07-2025 20:32:51,938-06:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2773 ms
+27-07-2025 20:32:52,335-06:00 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-07-2025 20:32:52,423-06:00 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+27-07-2025 20:32:52,481-06:00 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+27-07-2025 20:32:53,034-06:00 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+27-07-2025 20:32:53,112-06:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+27-07-2025 20:32:53,598-06:00 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/practica65 user=SA
+27-07-2025 20:32:53,603-06:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+27-07-2025 20:32:53,755-06:00 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+27-07-2025 20:32:54,988-06:00 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+27-07-2025 20:32:55,058-06:00 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-07-2025 20:32:55,498-06:00 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-07-2025 20:32:56,029-06:00 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/practica65'
+27-07-2025 20:32:56,129-06:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+27-07-2025 20:32:56,167-06:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+27-07-2025 20:32:56,179-06:00 [main] INFO  c.e.p.Practica65ServiciosWebRestApplication - Started Practica65ServiciosWebRestApplication in 8.081 seconds (process running for 9.511)
+27-07-2025 20:33:02,657-06:00 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+27-07-2025 20:33:02,657-06:00 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+27-07-2025 20:33:02,659-06:00 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+27-07-2025 20:33:11,367-06:00 [http-nio-8080-exec-3] INFO  c.e.p.controller.UsuarioController - Usuario nuevo creado
+27-07-2025 20:33:34,592-06:00 [http-nio-8080-exec-3] INFO  c.e.p.controller.UsuarioController - Usuario nuevo creado
+27-07-2025 20:34:16,603-06:00 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+27-07-2025 20:34:16,614-06:00 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+27-07-2025 20:34:16,620-06:00 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-07-2025 20:34:16,622-06:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+27-07-2025 20:34:16,624-06:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+27-07-2025 20:37:06,650-06:00 [main] INFO  c.e.p.Practica65ServiciosWebRestApplication - Starting Practica65ServiciosWebRestApplication using Java 23.0.2 with PID 7496 (C:\Users\Mauricio Ortega\Desktop\EBAC\Actividades\BACKEND\PRACTICAS\practica65ServiciosWebREST\target\classes started by Mauricio Ortega in C:\Users\Mauricio Ortega\Desktop\EBAC\Actividades\BACKEND\PRACTICAS\practica65ServiciosWebREST)
+27-07-2025 20:37:06,655-06:00 [main] INFO  c.e.p.Practica65ServiciosWebRestApplication - The following 1 profile is active: "dev"
+27-07-2025 20:37:08,305-06:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-07-2025 20:37:08,470-06:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139 ms. Found 2 JPA repository interfaces.
+27-07-2025 20:37:09,421-06:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+27-07-2025 20:37:09,445-06:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+27-07-2025 20:37:09,450-06:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+27-07-2025 20:37:09,451-06:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+27-07-2025 20:37:09,586-06:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+27-07-2025 20:37:09,587-06:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2762 ms
+27-07-2025 20:37:09,984-06:00 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-07-2025 20:37:10,083-06:00 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+27-07-2025 20:37:10,156-06:00 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+27-07-2025 20:37:10,821-06:00 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+27-07-2025 20:37:10,890-06:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+27-07-2025 20:37:11,360-06:00 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/practica65 user=SA
+27-07-2025 20:37:11,366-06:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+27-07-2025 20:37:11,465-06:00 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+27-07-2025 20:37:12,788-06:00 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+27-07-2025 20:37:12,858-06:00 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-07-2025 20:37:13,359-06:00 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-07-2025 20:37:13,888-06:00 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/practica65'
+27-07-2025 20:37:14,002-06:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+27-07-2025 20:37:14,041-06:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+27-07-2025 20:37:14,057-06:00 [main] INFO  c.e.p.Practica65ServiciosWebRestApplication - Started Practica65ServiciosWebRestApplication in 8.383 seconds (process running for 9.794)
+27-07-2025 20:37:33,087-06:00 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+27-07-2025 20:37:33,088-06:00 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+27-07-2025 20:37:33,089-06:00 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+27-07-2025 20:37:37,845-06:00 [http-nio-8080-exec-7] INFO  c.e.p.controller.UsuarioController - Usuario ya existente
+27-07-2025 20:37:44,157-06:00 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+27-07-2025 20:37:44,168-06:00 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+27-07-2025 20:37:44,172-06:00 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-07-2025 20:37:44,175-06:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+27-07-2025 20:37:44,176-06:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+27-07-2025 20:51:07,725-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 20:51:47,069-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 20:52:28,885-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 20:52:36,335-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 20:53:08,196-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 20:55:04,691-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:07:00,442-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:08:47,058-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:09:47,088-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:10:23,069-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:13:55,844-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:27:55,522-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:30:09,698-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:30:48,867-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:48:48,293-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:50:24,630-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono
+27-07-2025 22:50:40,760-06:00 [main] INFO  c.e.p.controller.TelefonoController - No hay un usuario a cual registrar el telefono

@@ -3,6 +3,7 @@ package com.ebac.practica65ServiciosWebREST.controller;
 import com.ebac.practica65ServiciosWebREST.dto.Telefono;
 import com.ebac.practica65ServiciosWebREST.dto.Usuario;
 import com.ebac.practica65ServiciosWebREST.service.TelefonoService;
+import com.ebac.practica65ServiciosWebREST.service.UsuarioService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -21,9 +22,31 @@ public class TelefonoController {
     @Autowired
     TelefonoService telefonoService;
 
+    @Autowired
+    UsuarioService usuarioService;
+
+
+
     @PostMapping("/telefonos")
     public ResponseEntity<ResponseWrapper<Telefono>> guardarTelefono(@RequestBody Telefono telefono) throws Exception {
-        try {
+        Usuario usuarioARegistrarTelefono = telefono.getUsuario();
+        int idUsuarioARegistrarTelefono = usuarioARegistrarTelefono.getIdUsuario();
+
+        Optional<Usuario> usuarioOptional = usuarioService.obtenerUsuarioPorID(idUsuarioARegistrarTelefono);
+
+        if (usuarioOptional.isPresent()) {
+            log.info("Se encontro el usuario al cual se registrara el telefono");
+            Telefono telefonoGuardado = telefonoService.guardarTelefono(telefono);
+            ResponseEntity<Telefono> responseEntity = ResponseEntity.created(new URI("http://localhost/usuarios")).body(telefonoGuardado);
+
+            return ResponseEntity.status(HttpStatus.CREATED).body(new ResponseWrapper<>(true, "Telefono Guardado", responseEntity));
+        }
+
+        log.info("No hay un usuario a cual registrar el telefono");
+        ResponseEntity<Telefono> responseEntity = ResponseEntity.notFound().build();
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(new ResponseWrapper<>(false, "No se encontro usuario a quien asociar este telefono", responseEntity));
+
+        /*try {
             if(telefono.getUsuario() == null){
                 log.warn("El telfono recibido no tiene usuario asignado");
                 ResponseEntity responseEntity = ResponseEntity.badRequest().build();
@@ -46,11 +69,10 @@ public class TelefonoController {
             if (existUser) {
                 log.info("No se encontro el usuario");
                 ResponseEntity<Telefono> responseEntity = ResponseEntity.notFound().build();
-
                 return ResponseEntity.status(HttpStatus.NOT_FOUND).body(new ResponseWrapper<>(false, "No se encontro usuario a quien asociar este telefono", responseEntity));
             }
 
-            log.info("Se encontro el usuario, se registrara");
+            log.info("Se encontro el usuario, se registrara el telefono");
             Telefono telefonoGuardado = telefonoService.guardarTelefono(telefono);
             ResponseEntity<Telefono> responseEntity = ResponseEntity.created(new URI("http://localhost/usuarios")).body(telefonoGuardado);
 
@@ -64,7 +86,7 @@ public class TelefonoController {
             log.error("Error de persistencia SQL" + e.getMessage());
             ResponseEntity<Telefono> responseEntity = ResponseEntity.badRequest().build();
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ResponseWrapper<>(false, "Usuario no existente en la BD, debe registrarse", responseEntity));
-        }
+        }*/
 
 
     }
@@ -107,7 +129,7 @@ public class TelefonoController {
 
             telefonoActualizado.setIdTelefono(telefonoObtenido.getIdTelefono());
 
-            if(telefonoActualizado.getUsuario()==null){
+            if (telefonoActualizado.getUsuario() == null) {
                 telefonoActualizado.setUsuario(telefonoObtenido.getUsuario());
             }
 
